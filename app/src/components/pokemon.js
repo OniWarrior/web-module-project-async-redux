@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
-import { fetchPokemon } from "../actions/pokeActions";
+import { fetchPokemon } from "../actions/pokeActions.js";
 
 const Pokemon=(props)=>{
 
