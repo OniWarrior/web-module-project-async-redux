@@ -8,7 +8,7 @@ export const FETCHING_FAILURE = "FETCHING_FAILURE"
 export const fetchPokemon = () => (dispatch) => {
   
   dispatch({ type: FETCHING_START });
-  axios.get("https://pokeapi.co/api/v2/pokemon/")
+  axios.get("https://pokeapi.co/api/v2/pokemon/pikachu")
     
     .then((res => {
       console.log("API poke data:", res.data);

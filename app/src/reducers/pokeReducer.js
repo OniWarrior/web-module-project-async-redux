@@ -11,7 +11,7 @@ export const pokeReducer = (state = initialState, action) => {
     case FETCHING_START:
       return {...state, loading: true}
     case FETCHING_SUCCESS:
-      return {...state, loading: false, poke: action.payload}
+      return {...state, loading: false, pokemon: action.payload}
     case FETCHING_FAILURE:
       return {...state, loading: false, error: action.payload}
     default:
